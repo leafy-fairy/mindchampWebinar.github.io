@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<title> Forms</title>
+</head>
+<body>
+<h1> Covid Test Egilibity </h1>
+<form name="Covid Test">
+<fieldset style="background-color:pink;">
+
+<legend> Personal Details:</legend>
+
+<label for = "FirstName">First Name:</label><br>
+<input type="text" name= "Firstname"><br> 
+   
+
+<label for = "LastName">Last Name:</label><br>
+<input type="text" name= "LastName"><br>
+
+
+<label for = "Age">Age:</label><br>
+<input type="number" number= "Age"><br>
+
+<label>Gender</label><br>
+
+<input type="radio" name="gender" value="male">
+<label for="male">Male</label><br>
+
+<input type="radio" name="gender" value="female">
+<label for="female">Female</label><br>
+
+<input type="radio" name="gender" value="other">
+<label for="other">other</label><br>
+</fieldset>
+
+<fieldset style="background-color:lightblue;">
+
+<legend>Symptoms</legend>
+
+<label for="symptoms">Check your symptoms:</label><br>
+
+<input type="checkbox" name="fever" value="Fever">
+<label for="fever">Fever</label><br>
+
+<input type="checkbox" name="difficulty breathing" value="Difficulty Breathing">
+<label for="difficulty breathing">Difficulty Breathing</label><br>
+
+<input type="checkbox" name="low oxygen level" value="Low oxygen level">
+<label for="low oxygen level">Low oxygen level</label><br>
+
+<input type="checkbox" name="running nose" value="running nose">
+<label for="running nose">Running Nose</label><br>
+
+<input type="checkbox" name="pain in body" value="pain in body">
+<label for="pain in body">Pain in body</label><br> 
+
+<input type="checkbox" name="coughing" value="Coughing">
+<label for="coughing">Coughing</label><br>
+
+<label for="symptoms">Do you have any other problem also?:</label><br>
+<input type="text" name="Do you have any other problem also?"><br> 
+</fieldset>
+
+<fieldset style="background-color:lightgreen;">
+
+<legend>Address Details</legend>
+
+<label for="addressdetails">Choose your state/union territories {India}</label><br>
+
+<select id="state" name="state">
+    <option value="DL">Delhi</option>
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+    <option value="BR">Bihar</option>
+    <option value="CH">Chandigarh</option>
+    <option value="CT">Chhattisgarh</option>
+    <option value="DN">Dadra and Nagar Haveli and Daman and Diu</option>
+    <option value="GA">Goa</option>
+    <option value="GJ">Gujarat</option>
+    <option value="HR">Haryana</option>
+    <option value="HP">Himachal Pradesh</option>
+    <option value="JK">Jammu and Kashmir</option>
+    <option value="JH">Jharkhand</option>
+    <option value="KA">Karnataka</option>
+    <option value="KL">Kerala</option>
+    <option value="LA">Ladakh</option>
+    <option value="LD">Lakshadweep</option>
+    <option value="MP">Madhya Pradesh</option>
+    <option value="MH">Maharashtra</option>
+    <option value="MN">Manipur</option>
+    <option value="ML">Meghalaya</option>
+    <option value="MZ">Mizoram</option>
+    <option value="NL">Nagaland</option>
+    <option value="OR">Odisha</option>
+    <option value="PY">Puducherry</option>
+    <option value="PB">Punjab</option>
+    <option value="RJ">Rajasthan</option>
+    <option value="SK">Sikkim</option>
+    <option value="TN">Tamil Nadu</option>
+    <option value="TG">Telangana</option>
+    <option value="TR">Tripura</option>
+    <option value="UP">Uttar Pradesh</option>
+    <option value="UT">Uttarakhand</option>
+    <option value="WB">West Bengal</option>
+</select><br>
+
+<textarea name="address detail" rows="10" cols="30">
+Address:
+</textarea>
+</fieldset>
+
+<fieldset>
+
+<legend>Preconditions</legend>
+<textarea name="preconditions"rows="10" cols="30">
+Preconditions
+</textarea>
+</fieldset>
+
+<input type="submit" name="submit">
+
+
+
+</form>
+</html>
